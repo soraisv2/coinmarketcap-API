@@ -7,7 +7,7 @@ You just have to put your api key and execute like :
     ./api.py 5 55
 
 ---
-    ```dif
+```python
     def getDataApi():
         url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
         parameters = {
@@ -17,7 +17,7 @@ You just have to put your api key and execute like :
         }
         headers = {
             'Accepts': 'application/json',
-    +       'X-CMC_PRO_API_KEY': '[YOUR API KEY]',
+            'X-CMC_PRO_API_KEY': '[YOUR API KEY]', # <==================
         }
 
         session = Session()
@@ -28,4 +28,4 @@ You just have to put your api key and execute like :
             return(response.text)
         except (ConnectionError, Timeout, TooManyRedirects) as e:
             print(e)
-    ```
+```
