@@ -1,5 +1,7 @@
 # Coinmarketcap API basic usage
 
+[![Python 3.9.6](https://img.shields.io/badge/python-3.9-blueviolet)](https://www.python.org/)
+
 ---
 
 You just have to put your api key and execute like :
