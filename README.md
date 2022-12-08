@@ -8,6 +8,8 @@ You just have to put your api key and execute like :
 
     ./api.py 5 55
 
+the first arg is for the delta time and the second for the crypto's list size
+
 ---
 ```python
     def getDataApi():
